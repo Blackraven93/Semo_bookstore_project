@@ -40,11 +40,7 @@ DJANGO_APPS = [
     "phonenumber_field",
 ]
 
-<<<<<<< HEAD
-PROJECT_APPS = ['authors', 'writerblogs','articles']
-=======
 PROJECT_APPS = ["authors", "writerblogs", "books", "users", "articles", "bookstores"]
->>>>>>> 6c621da22ab496aab1b25e9c493d0cffcd3c6d2d
 
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS
