@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이달의작가</title>
+</head>
+<body>
+아아아아앙
+     <br><img src = '/media/articles/author/라이언전무승진.jpg' width='300',height='350'>
+    {% for author in author_info  %}
+        {% if author.articleCategory == "author" %}
+       
+        <br>{{author.articleTitle}}
+        <br>{{author.articleExp}}
+        <br>{{author.articleDate}}
+        {% endif %}
+    {% endfor %}
+</body>
+</html>
