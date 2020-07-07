@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.shortcuts import render
 from .models import Article
 
@@ -16,3 +17,8 @@ from .models import Article
 def ThisMonthAuthorListView(request):
     author_info = Article.objects.all()
     return render(request,"articles/author.html",{"author_info":author_info},)
+=======
+from django.shortcuts import render
+
+# Create your views here.
+>>>>>>> ade7bc9c06408908f88500ba8c9a11e47d237983
